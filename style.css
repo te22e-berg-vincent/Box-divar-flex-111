@@ -22,13 +22,13 @@
     height: 25px;
     margin-left: 100px;
     margin-right: 100px;
-    border: 2px solid black;
+    border: 4px solid black;
     border-radius: 5px ;
     padding: 5px;
 }
 
 .snrtjul{
-    margin-bottom: 180px;
+    margin-bottom: 250px;
 }
 
 
@@ -39,21 +39,23 @@ h1{
     justify-content: space-around;
 }
 
-
-
-
-
-
-
-.bakgrund{
-border: 4px solid #D6001C;
-border-radius: 7px;
-
+.mid{
+padding: 10px;
+display: flex;
+gap: 10px;
+border: 4px solid red;
 }
 
-.rubrikdiv{
-border:4px solid #D6001C;
-border-radius: 7px;
 
-
+.vänster{
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 20px;
+border: 4px;
 }
+
+.vänster img{
+    height: 20px;
+}
+
