@@ -10,10 +10,13 @@ div{
     align-items: center;
     justify-content: space-around;
     background-image:url(/img/snow_winter_trees.jpg);
+    object-fit: contain;
     background-size: cover;
     border: red solid 3px;
     flex-direction: column;
 }
+
+
 .topbilder{
     border: red solid 3px;
     border-radius: 5px ;
